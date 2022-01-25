@@ -33,6 +33,7 @@ a{
     margin: auto;
 }
 
+
 /* Website CSS starts!*/
 
 body,h1,h2,h3,h4,h5,p,a,span{
@@ -238,6 +239,7 @@ body,h1,h2,h3,h4,h5,p,a,span{
     margin-left: 15px;
     transition: .5s;
     transform: scale(1);
+    cursor: pointer;
 }
 
 .s-icon{
@@ -273,4 +275,35 @@ body,h1,h2,h3,h4,h5,p,a,span{
  }
  .service-box h4:hover {
      color: #fff;
+ }
+
+ /* Pricing Section*/
+
+ .pricing-section{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #f7f9ff;
+ }
+ .p-s-heading{}
+ .p-s-heading h2{
+     font-size: 40px;
+     font-weight: 500;
+     margin-bottom: 20px;
+ }
+ .p-s-heading h4{
+     font-size: 25px;
+     font-weight: 400;
+     color: #636363;
+     padding: 10px 10px;
+     margin-bottom: 50px;
+ }
+ .pricing-table{}
+ .pricing-item{
+     width: 30.0px;
+     padding: 20px;
+     float: left;
+     margin-top: 10px;
+     margin-right: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
  }
