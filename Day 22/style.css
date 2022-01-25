@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper-div{
+    width: 1000px;
+    border: 1px solid red;
+    margin: 20px auto;
+    text-align: center;
+}
+.basicdesign{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    margin: 20px;
+    display: inline-block;
+}
+.div1{
+    transform: translate(10px, -20px);
+    transition: .5s;
+}
+.div1:hover{
+    transform: translate(20px, 20px);
+    cursor: pointer;
+}
+.div2{
+    transform: rotate(0deg);
+    transition: .5s;
+}
+.div2:hover{
+    transform: rotate(50deg);
+    cursor: pointer;
+}
+.div3{}
+.div4{
+    transform: scale(1);
+    transition: .5s;
+}
+.div4:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}

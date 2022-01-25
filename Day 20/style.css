@@ -1,0 +1,35 @@
+.main-div{
+    text-align: center;
+    width: 800px;
+    border: 2px solid black;
+    margin: 20px 0;
+    margin: auto;
+    font-size: 20px;
+}
+.hover-div{
+    position: relative;
+}
+.hover-inner{
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: #fff;
+        text-align: center;
+        width: 0;
+        height: 0;
+        background: rgba(0,94,184, .50);
+        visibility: hidden;
+        transition: .5s;
+        opacity: 0;
+    }
+
+.hover-inner h2{
+    margin-top: 100px;
+}
+.hover-div:hover .hover-inner{
+    height: 100%;
+    width: 100%;
+    visibility: visible;
+    transition: .5s;
+    opacity: 1;
+}

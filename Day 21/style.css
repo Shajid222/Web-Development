@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-menu{
+    background: #3498db;
+}
+.header-menu ul{
+    text-align: center;
+}
+.header-menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+    position: relative;
+}
+.header-menu ul li a{
+    color: white;
+    padding: 15px 30px;
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    border-right: 1px solid #ddd;
+}
+.header-menu ul li:first-child{
+    border-left: 1px solid #ddd;
+}
+.header-menu ul li:hover > a{
+    background: #2980b9;
+}
+/*Dropdown menu start*/
+.header-menu ul li ul{
+    position: absolute;
+    left: 0;
+    top: 100;
+    width: 300px;
+    background: #3498db ;
+    border-top: 1px solid #ddd;
+    transition: .8s;
+}
+.header-menu ul li ul li{
+    display: block;
+    margin-left: 0%;
+}
+.header-menu ul li ul li a{
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+.header-menu ul ul li:first-child a{
+    border-left: none;
+    border-bottom: 1px solid #ddd;
+}
+/* hover part*/
+.header-menu ul li ul{
+   opacity: 0;
+   visibility: hidden;
+   transform: scaleY(0);
+   transform-origin: top center;
+}
+.header-menu ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+    
+}
+.header-menu ul li ul li a:hover{
+    background-color: #2980b9;
+}
+
+/* Social menu*/
+.social-menu{ 
+    margin-top: 50px;
+}
+.social-menu ul{
+    text-align: center;
+}
+.social-menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+    
+}
+.social-menu ul li a{
+    color: #fff;
+    background-color: #3498db;
+    font-size: 40px;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    line-height: 100px;
+    border-radius: 50%;
+}
+.social-menu ul li a:hover{} 

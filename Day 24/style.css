@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.menubar{
+    background-color: blue;
+}
+ul{
+    text-align: center;
+}
+li{
+    display: inline-block;
+}
+ul li a{
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    border-left: 1px solid #ddd;
+    text-decoration: none;
+}
+ul li:last-child{
+    border-right: 1px solid #ddd;
+}

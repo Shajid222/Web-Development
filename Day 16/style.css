@@ -1,0 +1,17 @@
+.test-div{
+    /*height: 300px;
+    width: 300px;*/
+    background-color: red;
+    color:#fff;
+    display: inline-block;
+}
+body{
+
+    background-color: black;
+}
+.another-div{
+
+    height: 300px;
+    width: 300px;
+    background-color: green;
+}
