@@ -280,10 +280,9 @@ body,h1,h2,h3,h4,h5,p,a,span{
  /* Pricing Section*/
 
  .pricing-section{
-    padding-top: 2rem;
-    padding-bottom: 2rem;
     background-color: #f7f9ff;
- }
+    padding: 50px;
+}
  .p-s-heading{}
  .p-s-heading h2{
      font-size: 40px;
@@ -299,11 +298,64 @@ body,h1,h2,h3,h4,h5,p,a,span{
  }
  .pricing-table{}
  .pricing-item{
-     width: 30.0px;
-     padding: 20px;
-     float: left;
-     margin-top: 10px;
-     margin-right: 20px;
-    box-sizing: border-box;
-    border: 1px solid #ddd;
+     width: 31.3%;
+     margin-right: 2%;
+     background: #fff;
  }
+
+ .p-i-heading{
+     padding: 30px;
+ }
+ .p-i-heading h4{
+     font-size: 25px;
+     font-weight: 500;
+     margin: 25px;
+     margin-bottom: 40px;
+     margin-left: 40px;
+ }
+ .p-i-heading h1{
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    margin-left: 40px;
+ }
+ .p-i-heading h5{
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+ .p-i-heading p{
+     font-size: 18px;
+     color: #636363;
+     margin-left: 40px;
+     margin-bottom: 20px;
+     border-bottom: 1px solid #7d7d7d;
+     border-width: medium;
+ }
+ .p-i-content{
+    padding: 30px;
+ }
+ .p-i-content ul{
+     
+ }
+ .p-i-content ul li{
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    color: #636363;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.p-i-content ul li i{
+    margin-right: 10px;
+    color: #6278df;
+}
+.pricing-btn a{
+    color: #6278df;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 60px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 1px 0px 20px 10 rgb(64 86 191 / 0.2);
+}
