@@ -228,7 +228,7 @@ body,h1,h2,h3,h4,h5,p,a,span{
    
 }
 .service-box{
-    width: 30.2%;
+    width: 31.1%;
     float: left;
     margin-right: 1.8%;
     margin-bottom: 20px;
@@ -261,8 +261,10 @@ body,h1,h2,h3,h4,h5,p,a,span{
 .s-content h4{
     font-size: 20px;
     line-height: 20px;
-    color: #a3a0a0;
+    color: rgb(211, 211, 211);
     margin-left: 10px;
+    word-wrap: keep-all;
+    text-justify:auto ;
 }
 .s-content h4:last-child{
     font-size: 16px;
@@ -275,6 +277,9 @@ body,h1,h2,h3,h4,h5,p,a,span{
  }
  .service-box h4:hover {
      color: #fff;
+ }
+ .service-box:nth-child(3n+3){
+     margin-right: 0;
  }
 
  /* Pricing Section*/
@@ -305,6 +310,7 @@ body,h1,h2,h3,h4,h5,p,a,span{
 
  .p-i-heading{
      padding: 30px;
+     transition: .5s;
  }
  .p-i-heading h4{
      font-size: 25px;
@@ -326,7 +332,6 @@ body,h1,h2,h3,h4,h5,p,a,span{
 }
  .p-i-heading p{
      font-size: 18px;
-     color: #636363;
      margin-left: 40px;
      margin-bottom: 20px;
      border-bottom: 1px solid #7d7d7d;
@@ -357,5 +362,47 @@ body,h1,h2,h3,h4,h5,p,a,span{
     padding: 15px 60px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    box-shadow: 1px 0px 20px 10 rgb(64 86 191 / 0.2);
+    box-shadow: 4px 4px 20px 0 rgb(64 86 191 / 0.2);
+    transition: .5s;
+}
+/* Pricing section hover*/
+.pricing-item:hover .p-i-heading {
+    color: #fff ;
+    background: #6278df;
+}
+.pricing-item:hover .pricing-btn a{
+    color: #fff;
+    background: #6278df;
+    cursor: pointer;
+}
+
+/* Team section css*/
+.team-section{
+    margin: 100px 0;
+}
+.t-s-header{}
+.t-s-header h1{
+    text-align: center;
+}
+.team-members{
+    width: 20.22%;
+}
+.t-m-info{
+    border: 1px #ddd solid;
+    object-fit: cover;
+    object-position: center;
+}
+.t-m-info img{
+    width: 250px;
+    border: #fff;
+    border-radius: 5px;
+    height: 250px;
+}
+.t-m-info h2{
+    font-weight: 600;
+    margin-top: 20px;
+}
+.t-m-info h4{
+    font-weight: 500;
+    margin-top: 10px;
 }
