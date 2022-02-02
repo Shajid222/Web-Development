@@ -441,9 +441,9 @@ body,h1,h2,h3,h4,h5,p,a,span{
     padding: 15px 25px;
     font-size: 20px;
     border-radius: 6px;
-    border: 2px rgb(230, 229, 229) solid;
+    border: 2px #e4e4e4 solid;
     box-shadow: 4px 4px 30px 0 rgb(98 120 223 / 0.1);
-
+    transition: .4s;
 }
 .default-input:focus{
     box-shadow: 4px 4px 30px 0 rgb(98 120 223 / 0.5);
@@ -466,4 +466,57 @@ body,h1,h2,h3,h4,h5,p,a,span{
     background: #ffffff;
     color: #6278df;
     box-shadow: 4px 4px 30px 0 rgb(98 120 223 / 0.5);
+}
+
+/* Blog section*/
+
+.blog-section{
+    padding: 100px 0;
+}
+.blog-title{
+    padding: 50px 0;
+}
+.b-heading{
+    width: 50%;
+    
+}
+.b-heading h2{
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 25px;
+}
+.bt-content{
+    width: 50%;
+}
+.bt-content p{
+    font-size: 20px;
+    color: #636363;
+    font-weight: 400;
+    line-height: 1.6em;
+}
+.b-p-items{
+    width: 47.50%;
+    box-shadow: 4px 4px 30px 0 rgb(98 120 223 / 0.1);
+    transition: .5s;
+}
+.b-p-items img{
+    max-width: 100%;
+    width: 310px;
+    float: left;
+    margin-right: 30px;
+}
+.b-p-content{}
+.b-p-content h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.b-p-content p{
+    color: #636363;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.4em;
+}
+.b-p-items:hover{
+    box-shadow: 4px 4px 30px 0 rgb(98 120 223 / 0.5);
+    cursor: pointer;
 }
