@@ -7,16 +7,50 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
+    <style>
+        .row > div {
+            border: 1px solid #ddd;
+            background: #fafafa;
+        }
+    </style>
 </head>
 <body>
 
-    <div class="test">
+    <div class="container">
         <div class="row">
-            <div class="col-md-6"></div>
+            <div class="col-xl-6 bg-primary"><h2>This is column 1</h2></div>
+            <div class="col-xl-6 bg-secondary"><h2>This is column 2</h2></div>
         </div>
     </div>
-    <div class="container"></div>
-    
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-2">Col XL 2</div>
+            <div class="col-xl-2">Col XL 2</div>
+            <div class="col-xl-2">Col XL 2</div>
+            <div class="col-xl-2">Col XL 2</div>
+            <div class="col-xl-2">Col XL 2</div>
+            <div class="col-xl-2">Col XL 2</div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-2">Col XL 2</div>
+            <div class="col-xl-8">Col XL 8</div>
+            <div class="col-xl-2">Col XL 2</div>
+        </div>
+    </div>
+   <div class="container">
+       <div class="row gy-1">
+           <div class="col-lg-4"><div class="border">Column</div></div>
+           <div class="col-lg-4 offset-4"><div class="border">Column</div></div>
+       </div>
+   </div>
+
+   <div class="container">
+       <div class="row">
+           <div class="col-lg-6 offset-6"><div class="border">Column 6</div></div>
+       </div>
+   </div>
     <script src="./js/bootstrap.min.js"></script>
 </body>
 </html>
